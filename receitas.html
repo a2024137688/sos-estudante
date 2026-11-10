@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,83 +22,111 @@
         </nav>
     </header>
 
-    
-<main>
-    <section>
-        <h2>Todas as receitas</h2>
-        <p>Descobre receitas fáceis, rápidas e económicas para o teu dia a dia.</p>
-    </section>
+    <main>
 
-    <section id="categorias">
-        <h2>Encontra a receita ideal</h2>
+        <!-- Apresentação da página -->
+        <section>
+            <h2>Todas as receitas</h2>
 
-        <input type="text" id="pesquisa"
-               placeholder="Pesquisar receitas...">
+            <p>
+                Descobre receitas fáceis, rápidas e económicas
+                para o teu dia a dia.
+            </p>
+        </section>
 
-        <div class="filtros">
-            <button type="button">Todas</button>
-            <button type="button">Até 5 €</button>
-            <button type="button">15 minutos</button>
-            <button type="button">Sem forno</button>
-            <button type="button">Fim do mês</button>
-        </div>
-    </section>
-    <section id="lista-receitas">
-        <h2>As nossas receitas</h2>
+        <!-- Categorias -->
+        <section id="categorias">
+            <h2>Encontra a receita ideal</h2>
 
-    <article class="cartao-receita">
+            <div class="filtros">
 
-        <img src="img/massa-atum.png"
-            alt="Massa de atum"
-            class="imagem-cartao">
+                <a href="receitas.html#lista-receitas"
+                   class="botao-receita">
+                    Todas
+                </a>
 
-        <h3>Massa de Atum</h3>
+                <a href="ate5.html" class="botao-receita">
+                    Até 5 €
+                </a>
 
-        <p>15 minutos | 3,50 €</p>
+                <a href="rapidas.html" class="botao-receita">
+                    15 minutos
+                </a>
 
-        <a href="receita.html" class="botao-receita">
-            Ver receita
-        </a>
+                <a href="sem-forno.html" class="botao-receita">
+                    Sem forno
+                </a>
 
-    </article>
+                <a href="fim-mes.html" class="botao-receita">
+                    Fim do mês
+                </a>
 
-    <article class="cartao-receita">
+            </div>
+        </section>
 
-        <img src="img/wrap-frango.jpg"
-            alt="Wrap de frango"
-            class="imagem-cartao">
+        <!-- Lista de todas as receitas -->
+        <section id="lista-receitas">
 
-        <h3>Wrap de Frango</h3>
+            <h2>As nossas receitas</h2>
 
-        <p>20 minutos | 4,20 €</p>
+            <div class="grupo-receitas">
 
-        <a href="wrap-frango.html" class="botao-receita">
-            Ver receita
-        </a>
+                <!-- Massa de Atum -->
+                <article class="cartao-receita">
 
-    </article>
+                    <img src="img/massa-atum.png"
+                         alt="Massa de atum"
+                         class="imagem-cartao">
 
+                    <h3>Massa de Atum</h3>
 
-    <!-- Arroz Salteado -->
-    <article class="cartao-receita">
+                    <p>15 minutos | 3,50 €</p>
 
-        <img src="img/arroz-salteado.jpg"
-            alt="Arroz salteado"
-            class="imagem-cartao">
+                    <a href="receita.html" class="botao-receita">
+                        Ver receita
+                    </a>
 
-        <h3>Arroz Salteado</h3>
+                </article>
 
-        <p>15 minutos | 2,80 €</p>
+                <!-- Wrap de Frango -->
+                <article class="cartao-receita">
 
-        <a href="arroz-salteado.html" class="botao-receita">
-            Ver receita
-        </a>
+                    <img src="img/wrap-frango.jpg"
+                         alt="Wrap de frango"
+                         class="imagem-cartao">
 
-    </article>
+                    <h3>Wrap de Frango</h3>
 
-    </section>
-</main>
+                    <p>20 minutos | 4,20 €</p>
 
+                    <a href="wrap-frango.html" class="botao-receita">
+                        Ver receita
+                    </a>
+
+                </article>
+
+                <!-- Arroz Salteado -->
+                <article class="cartao-receita">
+
+                    <img src="img/arroz-salteado.jpg"
+                         alt="Arroz salteado"
+                         class="imagem-cartao">
+
+                    <h3>Arroz Salteado</h3>
+
+                    <p>15 minutos | 2,80 €</p>
+
+                    <a href="arroz-salteado.html" class="botao-receita">
+                        Ver receita
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
 
     <footer>
         <p>SOS Estudante - Receitas Universitárias</p>

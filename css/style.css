@@ -274,3 +274,66 @@ footer {
     margin-bottom: 15px;
 }
 
+/* Apresentação da página inicial */
+.apresentacao {
+    background-color: #e7eee5;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.apresentacao h2 {
+    font-size: 38px;
+    color: #244d3b;
+    margin-bottom: 20px;
+}
+
+.apresentacao p {
+    font-size: 18px;
+    max-width: 650px;
+    margin: 0 auto 25px;
+}
+
+/* Adaptação para telemóveis */
+@media (max-width: 600px) {
+    .apresentacao {
+        padding: 60px 20px;
+    }
+
+    .apresentacao h2 {
+        font-size: 28px;
+    }
+
+    .apresentacao p {
+        font-size: 16px;
+    }
+}
+
+
+/* Categorias das receitas */
+#ate5,
+#rapidas,
+#sem-forno,
+#fim-mes {
+    background-color: #f4f1ea;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 40px 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#ate5 h2,
+#rapidas h2,
+#sem-forno h2,
+#fim-mes h2 {
+    color: #244d3b;
+}
+
+#ate5 p,
+#rapidas p,
+#sem-forno p,
+#fim-mes p {
+    margin-bottom: 20px;
+}
+
+
