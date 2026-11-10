@@ -135,3 +135,29 @@ footer {
         margin: 15px auto;
     }
 }
+
+
+/* Barra de pesquisa */
+#pesquisa {
+    width: 100%;
+    max-width: 450px;
+    padding: 14px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Destaque da barra quando selecionada */
+#pesquisa:focus {
+    outline: none;
+    border-color: #244d3b;
+}
+
+/* Organização dos filtros */
+.filtros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
