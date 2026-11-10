@@ -161,3 +161,27 @@ footer {
     flex-wrap: wrap;
     gap: 10px;
 }
+
+
+/* Botão para visualizar receitas */
+.botao-receita {
+    display: inline-block;
+    background-color: #c65b36;
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.botao-receita:hover {
+    background-color: #a74628;
+}
+
+
+/* Botão para voltar à lista de receitas */
+.voltar-receitas {
+    text-align: center;
+    padding: 30px;
+}
