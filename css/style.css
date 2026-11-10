@@ -1,0 +1,137 @@
+
+/* Estilo geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf8f4;
+    color: #26332b;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #244d3b;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f4c77a;
+}
+
+/* Secções */
+main section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+main section:first-child {
+    background-color: #e7eee5;
+    padding: 100px 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Botões das categorias */
+button {
+    background-color: #c65b36;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 25px;
+    margin: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a74628;
+}
+
+/* Receitas */
+#receitas {
+    background-color: #fff;
+}
+
+article {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #f4f1ea;
+    width: 260px;
+    min-height: 130px;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+article h3 {
+    margin-bottom: 12px;
+    color: #244d3b;
+}
+
+/* Sobre o projeto */
+#sobre {
+    background-color: #e7eee5;
+}
+
+/* Rodapé */
+footer {
+    background-color: #244d3b;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Adaptação a telemóveis */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav {
+        gap: 12px;
+    }
+
+    main section {
+        padding: 40px 15px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    article {
+        display: block;
+        width: 100%;
+        max-width: 340px;
+        margin: 15px auto;
+    }
+}
