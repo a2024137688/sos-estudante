@@ -185,3 +185,92 @@ footer {
     text-align: center;
     padding: 30px;
 }
+
+/* Ingredientes da receita */
+.ingredientes {
+    background-color: #f4f1ea;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.ingredientes h2 {
+    color: #244d3b;
+    text-align: center;
+}
+
+.ingredientes ul {
+    padding-left: 25px;
+}
+
+.ingredientes li {
+    margin-bottom: 12px;
+}
+
+/* Modo de preparação */
+.preparacao {
+    background-color: #e7eee5;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.preparacao h2 {
+    color: #244d3b;
+    text-align: center;
+}
+
+.preparacao ol {
+    padding-left: 25px;
+}
+
+.preparacao li {
+    margin-bottom: 15px;
+}
+
+.ingredientes ul,
+.preparacao ol {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.ingredientes li,
+.preparacao li {
+    text-align: center;
+}
+
+
+/* Imagem da página de detalhe da receita */
+.imagem-receita {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Cartões das receitas */
+.cartao-receita {
+    width: 280px;
+    padding: 15px;
+    background-color: #f4f1ea;
+    border-radius: 12px;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Imagens dos cartões */
+.imagem-cartao {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
